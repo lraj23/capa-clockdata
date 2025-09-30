@@ -1,0 +1,221 @@
+{
+	"version": 1,
+	"last_updated_id": "2025-09-29-01",
+	"metadata": {
+		"schoolId": 2,
+		"school": "Cal Aero Preserve Academy JH",
+		"shortName": "CAPA JH",
+		"timezone": "America/Los_Angeles"
+	},
+	"announcements": [],
+	"schedulingRules": [
+		{
+			"match": "dayOfTheWeek",
+			"pattern": "1 -- 3",
+			"schedule": "regular"
+		},
+		{
+			"match": "dayOfTheWeek",
+			"pattern": "4",
+			"schedule": "minimum"
+		},
+		{
+			"match": "dayOfTheWeek",
+			"pattern": "5",
+			"schedule": "regular"
+		}
+	],
+	"schedules": [
+		{
+			"id": "noSchool",
+			"label": "No school",
+			"timings": {
+				"No school": [
+					"8:00 AM -- 2:40 PM"
+				]
+			}
+		},
+		{
+			"id": "minimum",
+			"label": "Minimum",
+			"timings": {
+				"Period 1": [
+					"8:00 AM -- 8:26 AM"
+				],
+				"Passing 1-2": [
+					"8:26 AM -- 8:30 AM"
+				],
+				"Period 2": [
+					"8:30 AM -- 8:56 AM"
+				],
+				"Passing 2-3": [
+					"8:56 AM -- 9:00 AM"
+				],
+				"Period 3": [
+					"9:00 AM -- 9:26 AM"
+				],
+				"Passing 3-4": [
+					"9:26 AM -- 9:30 AM"
+				],
+				"Period 4": [
+					"9:30 AM -- 9:56 PM"
+				],
+				"Passing 4-L": [
+					"9:56 AM -- 10:00 AM"
+				],
+				"Lunch": [
+					"10:00 AM -- 10:30 AM"
+				],
+				"Passing L-5": [
+					"10:30 AM -- 10:34 AM"
+				],
+				"Period 5": [
+					"10:34 AM -- 11:00 AM"
+				],
+				"Passing 5-6": [
+					"11:00 AM -- 11:04 AM"
+				],
+				"Period 6": [
+					"11:04 AM -- 11:30 AM"
+				]
+			}
+		},
+		{
+			"id": "regular",
+			"label": "Regular",
+			"timings": {
+				"Period 0": [
+					"8:00 AM -- 8:06 AM"
+				],
+				"Passing 0-1": [
+					"8:06 AM -- 8:12 AM"
+				],
+				"Period 1": [
+					"8:12 AM -- 9:06 AM"
+				],
+				"Passing 1-2": [
+					"9:06 AM -- 9:10 AM"
+				],
+				"Period 2": [
+					"9:10 AM -- 10:04 AM"
+				],
+				"Nutrition": [
+					"10:04 AM -- 10:14 AM"
+				],
+				"Passing N-3": [
+					"10:14 AM -- 10:18 AM"
+				],
+				"Period 3": [
+					"10:18 AM -- 11:12 AM"
+				],
+				"Passing 3-4": [
+					"11:12 AM -- 11:16 AM"
+				],
+				"Period 4": [
+					"11:16 AM -- 12:10 PM"
+				],
+				"Passing 4-L": [
+					"12:10 PM -- 12:14 PM"
+				],
+				"Lunch": [
+					"12:14 PM -- 12:44 PM"
+				],
+				"Passing L-5": [
+					"12:44 PM -- 12:48 PM"
+				],
+				"Period 5": [
+					"12:48 PM -- 1:42 PM"
+				],
+				"Passing 5-6": [
+					"1:42 PM -- 1:46 PM"
+				],
+				"Period 6": [
+					"1:46 PM -- 2:40 PM"
+				]
+			}
+		}
+	],
+	"full_day_overrides": [
+		{
+			"name": "Labor Day (no school)",
+			"applies": [
+				"2025-09-01"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Veterans' Day (long weekend)",
+			"applies": [
+				"2025-11-10 -- 2025-11-11"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Thanksgiving Break",
+			"applies": [
+				"2025-11-24 -- 2025-11-28"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Winter Break",
+			"applies": [
+				"2025-12-18 -- 2025-12-19",
+				"2025-12-22 -- 2025-12-26",
+				"2025-12-29 -- 2026-01-02"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Martin Luther King Jr. Day (no school)",
+			"applies": [
+				"2026-01-19"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Abraham Lincoln's Birthday (no school)",
+			"applies": [
+				"2026-02-09"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "George Washington's Birthday (no school)",
+			"applies": [
+				"2026-02-16"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Spring Break",
+			"applies": [
+				"2026-03-30 -- 2026-04-03"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Easter Monday (no school)",
+			"applies": [
+				"2026-04-06"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"name": "Summer Break",
+			"applies": [
+				"2026-05-22 -- 2026-08-07"
+			],
+			"schedule": "none"
+		}
+	],
+	"timeframe_overrides": [
+		{
+			"name": "Example ('name' appears in settings: overrideIndicator)",
+			"applies": [
+				"2025-01-01/11:00 AM -- 2025-01-01/01:00 PM"
+			],
+			"description": "This is an example timeframe override. ('description' appears on clock screen: currentTimePeriod)"
+		}
+	]
+}
