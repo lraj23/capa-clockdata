@@ -169,12 +169,12 @@
 			"label": "Assembly/Rally",
 			"timings": [
 				{
-					"label": "Announcements",
+					"label": "Period 0",
 					"applies": "8:00 AM -- 8:04 AM"
 				},
 				{
 					"label": "Period 1",
-					"applies": "8:06 AM -- 8:52 AM"
+					"applies": "8:04 AM -- 8:52 AM"
 				},
 				{
 					"label": "Passing 1-2",
@@ -217,7 +217,7 @@
 					"applies": "12:26 PM -- 12:56 PM"
 				},
 				{
-					"label": "Passing L-Assembly/Rally",
+					"label": "Passing L-R",
 					"applies": "12:56 PM -- 1:00 PM"
 				},
 				{
@@ -225,7 +225,7 @@
 					"applies": "1:00 PM -- 1:48 PM"
 				},
 				{
-					"label": "Passing Assembly/Rally-6",
+					"label": "Passing R-6",
 					"applies": "1:48 PM -- 1:52 PM"
 				},
 				{
@@ -233,9 +233,196 @@
 					"applies": "1:52 PM -- 2:40 PM"
 				}
 			]
+		},
+		{
+			"id": "gameDay",
+			"label": "Game Day",
+			"timings": [
+				{
+					"label": "Period 1",
+					"applies": "8:00 AM -- 8:37 AM"
+				},
+				{
+					"label": "Passing 1-2",
+					"applies": "8:37 AM -- 8:41 AM"
+				},
+				{
+					"label": "Period 2",
+					"applies": "8:41 AM -- 9:18 AM"
+				},
+				{
+					"label": "Passing 2-3",
+					"applies": "9:18 AM -- 9:22 AM"
+				},
+				{
+					"label": "Period 3",
+					"applies": "9:22 AM - 10:00 AM"
+				},
+				{
+					"label": "Nutrition",
+					"applies": "10:00 AM - 10:10 AM"
+				},
+				{
+					"label": "Passing N-4",
+					"applies": "10:10 AM - 10:14 AM"
+				},
+				{
+					"label": "Period 4",
+					"applies": "10:14 AM -- 10:50 AM"
+				},
+				{
+					"label": "Passing 4-5",
+					"applies": "10:50 AM - 10:54 AM"
+				},
+				{
+					"label": "Period 5",
+					"applies": "10:54 AM -- 11:31 AM"
+				},
+				{
+					"label": "Passing 5-6",
+					"applies": "11:31 AM -- 11:35 AM"
+				},
+				{
+					"label": "Period 6",
+					"applies": "11:35 AM -- 12:10 PM"
+				},
+				{
+					"label": "Passing 6-L",
+					"applies": "12:10 PM -- 12:14 PM"
+				},
+				{
+					"label": "Lunch",
+					"applies": "12:14 PM -- 12:44 PM"
+				},
+				{
+					"label": "Passing L-6-G1",
+					"applies": "12:44 PM -- 12:50 PM"
+				},
+				{
+					"label": "Game Day Session 1",
+					"applies": "12:50 PM -- 1:35 PM"
+				},
+				{
+					"label": "Passing G1-G2",
+					"applies": "1:35 PM -- 1:40 PM"
+				},
+				{
+					"label": "Game Day Session 2",
+					"applies": "1:40 PM -- 2:25 PM"
+				},
+				{
+					"label": "Cleanup",
+					"applies": "2:25 PM -- 2:35 PM"
+				},
+				{
+					"label": "Passing G2-6",
+					"applies": "2:35 PM -- 2:40 PM"
+				}
+			]
+		},
+		{
+			"id": "careerDay",
+			"label": "Career Day",
+			"timings": [
+				{
+					"label": "Period 0",
+					"applies": "8:00 AM -- 8:11 AM"
+				},
+				{
+					"label": "Passing 0-1",
+					"applies": "8:11 AM -- 8:15 AM"
+				},
+				{
+					"label": "Period 1",
+					"applies": "8:15 AM -- 8:49 AM"
+				},
+				{
+					"label": "Passing 1-2",
+					"applies": "8:49 AM -- 8:53 AM"
+				},
+				{
+					"label": "Period 2",
+					"applies": "8:53 AM -- 9:27 AM"
+				},
+				{
+					"label": "Passing 2-3",
+					"applies": "9:27 AM -- 9:31 AM"
+				},
+				{
+					"label": "Period 3",
+					"applies": "9:31 AM -- 10:05 AM"
+				},
+				{
+					"label": "Nutrition",
+					"applies": "10:05 AM - 10:10 AM"
+				},
+				{
+					"label": "Passing N-C1",
+					"applies": "10:10 AM -- 10:15 AM"
+				},
+				{
+					"label": "Career Day Session 1",
+					"applies": "10:15 AM -- 10:50 AM"
+				},
+				{
+					"label": "Passing C1-C2",
+					"applies": "10:50 AM -- 10:55 AM"
+				},
+				{
+					"label": "Career Day Session 2",
+					"applies": "10:55 AM -- 11:30 AM"
+				},
+				{
+					"label": "Passing C2-C3",
+					"applies": "11:30 AM -- 11:35 AM"
+				},
+				{
+					"label": "Career Day Session 3",
+					"applies": "11:35 AM -- 12:10 PM"
+				},
+				{
+					"label": "Passing C3-L",
+					"applies": "12:10 PM -- 12:14 PM"
+				},
+				{
+					"label": "Lunch",
+					"applies": "12:14 PM -- 12:44 PM"
+				},
+				{
+					"label": "Passing L-4",
+					"applies": "12:44 PM -- 12:48 PM"
+				},
+				{
+					"label": "Period 4",
+					"applies": "12:48 PM -- 1:22 PM"
+				},
+				{
+					"label": "Passing 4-5",
+					"applies": "1:22 PM -- 1:27 PM"
+				},
+				{
+					"label": "Period 5",
+					"applies": "1:27 PM -- 2:01 PM"
+				},
+				{
+					"label": "Passing 5-6",
+					"applies": "2:01 PM -- 2:06 PM"
+				},
+				{
+					"label": "Period 6",
+					"applies": "2:06 PM -- 2:40 PM"
+				}
+			]
 		}
 	],
 	"full_day_overrides": [
+		{
+			"occasion": "Game Day 2025",
+			"applies": [
+				"2025-11-07"
+			],
+			"schedule": "gameDay"
+		},
 		{
 			"occasion": "Thanksgiving Break",
 			"applies": [
@@ -272,6 +459,13 @@
 				"2026-02-16"
 			],
 			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Career Day",
+			"applies": [
+				"2026-02-27"
+			],
+			"schedule": "careerDay"
 		},
 		{
 			"occasion": "Spring Break",
