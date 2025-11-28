@@ -417,25 +417,18 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Game Day 2025",
-			"applies": [
-				"2025-11-07"
-			],
-			"schedule": "gameDay"
-		},
-		{
 			"occasion": "Thanksgiving Break",
 			"applies": [
-				"2025-11-24 -- 2025-11-28"
+				"2025-11-24 -- 2025-11-28|end"
 			],
 			"schedule": "noSchool"
 		},
 		{
 			"occasion": "Winter Break",
 			"applies": [
-				"2025-12-18 -- 2025-12-19",
-				"2025-12-22 -- 2025-12-26",
-				"2025-12-29 -- 2026-01-02"
+				"2025-12-18 -- 2025-12-19|end",
+				"2025-12-22 -- 2025-12-26|end",
+				"2025-12-29 -- 2026-01-02|end"
 			],
 			"schedule": "noSchool"
 		},
@@ -470,7 +463,7 @@
 		{
 			"occasion": "Spring Break",
 			"applies": [
-				"2026-03-30 -- 2026-04-03"
+				"2026-03-30 -- 2026-04-03|end"
 			],
 			"schedule": "noSchool"
 		},
@@ -484,7 +477,7 @@
 		{
 			"occasion": "Summer Break",
 			"applies": [
-				"2026-05-22 -- 2026-08-07"
+				"2026-05-22 -- 2026-08-07|end"
 			],
 			"schedule": "none"
 		}
