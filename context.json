@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2025-11-20-01",
+	"last_updated_id": "2026-02-13-01",
 	"metadata": {
 		"school_id": 2,
 		"school_name": "Cal Aero Preserve Academy JH",
@@ -417,27 +417,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Winter Break",
+			"occasion": "Assembly",
 			"applies": [
-				"2025-12-18 -- 2025-12-19|end",
-				"2025-12-22 -- 2025-12-26|end",
-				"2025-12-29 -- 2026-01-02|end"
+				"2026-02-13"
 			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Martin Luther King Jr. Day (no school)",
-			"applies": [
-				"2026-01-19"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Abraham Lincoln's Birthday (no school)",
-			"applies": [
-				"2026-02-09"
-			],
-			"schedule": "noSchool"
+			"schedule": "assembly"
 		},
 		{
 			"occasion": "George Washington's Birthday (no school)",
